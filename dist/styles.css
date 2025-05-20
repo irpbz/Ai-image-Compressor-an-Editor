@@ -1,0 +1,39 @@
+/* styles.css */
+html[dir="rtl"] {
+  direction: rtl;
+}
+
+html[dir="rtl"] .container-fixed {
+  text-align: right;
+}
+
+html[dir="rtl"] .flex {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .mr-2 {
+  margin-right: 0;
+  margin-left: 0.5rem;
+}
+
+html[dir="rtl"] .ml-2 {
+  margin-left: 0;
+  margin-right: 0.5rem;
+}
+
+html[dir="rtl"] .text-right {
+  text-align: right;
+}
+
+html[dir="rtl"] .grid {
+  direction: rtl;
+}
+
+html[dir="rtl"] .preview-img-container {
+  flex-direction: column-reverse;
+}
+
+html[dir="rtl"] .delete-icon {
+  right: auto;
+  left: 4px;
+}
